@@ -1,0 +1,8 @@
+var Resume={
+    "Name" : "C.Agustin Thomas",
+    "Qualification" : "B.E-Mechanical Engineer",
+    "Native" : "Sivagangai",
+    "Certification Courses" : "FullStackDevelopment",
+    "Date Of Birth" : "03/07/2001",
+    "Language Konw" : "Tamil,English"
+};console.log(Resume);

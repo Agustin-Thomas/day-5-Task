@@ -1,0 +1,47 @@
+1. For in loop
+
+var person = {
+   fname: "Nick",
+   lname: "Jonas",
+   age: 26
+}; 
+for (let x in person) {
+   console.log(x + ": "+ person[x])
+}
+---------------------------------------------------------------------------------------
+2. For loop
+
+var person = [{
+   fname: "Nick",
+   lname: "Jonas",
+   age: 26
+}]; 
+for (var i=0 ; i<person.length;i++) {
+   console.log(person[i])
+}
+----------------------------------------------------------------------------------------
+3.For of loop
+
+var person = [{
+   fname: "Nick",
+   lname: "Jonas",
+   age: 26
+}]; 
+for (var data of person) {
+   console.log(data)
+}
+-----------------------------------------------------------------------------------------
+4.For Each loop
+
+var person = [{
+   fname: "Nick",
+   lname: "Jonas",
+   age: 26
+}];
+
+person.forEach(myFunction);
+
+function myFunction(item) {
+
+    console.log(item);
+}
